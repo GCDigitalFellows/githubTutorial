@@ -159,6 +159,13 @@ or type:
 
 To update your copy on github you have to push your changes.  This only did the merge on the 
 local side.
+
+* Workshop Evaluation
+
+Please take a moment to fill out the evaluation form: 
+
+http://digitalfellows.commons.gc.cuny.edu/workshopevaluationform/
+
 * See everyone's changes
 ** Configure an upstream master
 Git does not automatically know where you want to pull from.

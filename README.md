@@ -34,13 +34,14 @@
 <li><a href="#sec-11">11. Copy your homework into that directory</a></li>
 <li><a href="#sec-12">12. Add your homework to your branch</a></li>
 <li><a href="#sec-13">13. Commit your local changes</a></li>
-<li><a href="#sec-14">14. See everyone's changes</a>
+<li><a href="#sec-14">14. Workshop Evaluation</a></li>
+<li><a href="#sec-15">15. See everyone's changes</a>
 <ul>
-<li><a href="#sec-14-1">14.1. Configure an upstream master</a></li>
-<li><a href="#sec-14-2">14.2. Sync the fork</a></li>
+<li><a href="#sec-15-1">15.1. Configure an upstream master</a></li>
+<li><a href="#sec-15-2">15.2. Sync the fork</a></li>
 </ul>
 </li>
-<li><a href="#sec-15">15. Thanks</a></li>
+<li><a href="#sec-16">16. Thanks</a></li>
 </ul>
 </div>
 </div>
@@ -218,9 +219,15 @@ or type:
 To update your copy on github you have to push your changes.  This only did the merge on the 
 local side.
 
-# See everyone's changes<a id="sec-14"></a>
+# Workshop Evaluation<a id="sec-14"></a>
 
-## Configure an upstream master<a id="sec-14-1"></a>
+Please take a moment to fill out the evaluation form: 
+
+<http://digitalfellows.commons.gc.cuny.edu/workshopevaluationform/>
+
+# See everyone's changes<a id="sec-15"></a>
+
+## Configure an upstream master<a id="sec-15-1"></a>
 
 Git does not automatically know where you want to pull from.
 To see where git is pulling from, type:
@@ -234,7 +241,7 @@ be synced by the fork.
 
 `git remote add upstream git://github.com/EvanMisshula/githubTutorial.git`
 
-## Sync the fork<a id="sec-14-2"></a>
+## Sync the fork<a id="sec-15-2"></a>
 
 To see everyone's accepted changes to the master, you have to pull the upstream master. This 
 requires a *fetch* command.  Make sure that you have commited your changes.  Type:
@@ -254,4 +261,4 @@ You will want to save those to your github account as well.  So to finish, type:
 
 `git push origin master`
 
-# Thanks<a id="sec-15"></a>
+# Thanks<a id="sec-16"></a>
