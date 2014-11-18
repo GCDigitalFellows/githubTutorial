@@ -48,23 +48,17 @@
 
 # Introduction<a id="sec-1"></a>
 
-This is the repo for homework 1, the generation of a seemingly random data set.
+This is the repo for our github tutorial.
 
-This is the README file for homework #1.  Everyone is going to create
+This is the README file for our tutorial.  Everyone is going to create
 a fork of this repository and create a directory whose name is
 <your<sub>name</sub>> where your last name is separated from your first with an
-underscore "\_".  Once you have done this copy the tab separated values
-file (tsv) with your data to the file and send me a pull request from
-your master to add it to the repo. If you have a team that consists of 
-more than the person who has uploaded the file, please include a second
-file called team.csv with the names of your team.
-
-I will add tutorials over the next few days.
+underscore "\_". To demonstrate manipulating files, I want you to write 
+your name in a file called team.csv with the names of your team.
 
 # Set up your github account<a id="sec-2"></a>
 
-After you set up the github account and email me.  You will get a
-github invite. Accept that invitation.  The next thing you should do is 
+Set up the github account. The next thing you should do is 
 fork the repository.  That means that you create your own copy of the
 repository in your github account.
 
@@ -148,13 +142,13 @@ Your Documents are in C:\Users\\<your name>\Documents.  In the terminal type:
 Tell Git your name so your commits will be properly labeled. Type
 everything after the $ here:
 
-`git config --global user.name "Your Name"`
+~git config &#x2013;global user.name "Your Name"~
 
 Tell Git the email address that will be associated with your Git
 commits. The email you specify should be the same one you used to sign
 up for GitHub.
 
-`git config --global user.email "YOUR EMAIL ADDRESS"`
+~git config &#x2013;global user.email "YOUR EMAIL ADDRESS"~
 
 # Clone the repository from your github account to your local machine<a id="sec-7"></a>
 
@@ -215,11 +209,11 @@ to your branch by typing:
 
 You should save or commit your changes with a message.  Type the following:
 
-`git commit -m "added my homework."`
+~git commit -m "added my homework."~
 
 or type:
 
-`git commit -m "added my homework and team."`
+~git commit -m "added my homework and team."~
 
 To update your copy on github you have to push your changes.  This only did the merge on the 
 local side.
@@ -238,7 +232,7 @@ forked both the (fetch) where you pull from and where you push to
 (push) are the same. Now specify a new upstream repository that will
 be synced by the fork.
 
-`git remote add upstream git://github.com/cuny-ml-f2014/homework1.git`
+`git remote add upstream git://github.com/EvanMisshula/githubTutorial.git`
 
 ## Sync the fork<a id="sec-14-2"></a>
 
